@@ -14,9 +14,10 @@ public class DataDawnload {
         System.out.println("To bardzo ciekawe" + " "+  "A ja lubię zadania matematyczne");
         System.out.println("Chcesz mnie sprawdzić?");
         text = scanner.nextLine();
-        System.out.println("Ok"+ " "+ "Podaj liczbę!");
+        System.out.println("Ok"+ " "+ "Podaj liczbę! a ja pomnoże je i podam Ci wynik!");
         firstNumber = scanner.nextInt();
         System.out.println(firstNumber * firstNumber);
+        System.out.println("I co ? Dobry jestem? ");
 
     }
 }
