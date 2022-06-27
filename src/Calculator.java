@@ -28,6 +28,7 @@ public class Calculator {
         System.out.println("Wynik dzielenia to"+ " " + division);
         System.out.println("Wynik reszty z dzielenia to"+ " "+ mod);
         System.out.println("I co ? Dobry jestem"+ " "+ name);
+        scanner.nextLine();
 
 
     }
