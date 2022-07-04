@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     //Napisz program który poprosi uzytkownika o 2 liczby, a następnie wykona obliczenie
     public static void main(String[] args) {
+        CalculatorTests calculatorTests = new CalculatorTests();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Cześć. Jak masz na imię?");
         String name = scanner.nextLine();
@@ -17,11 +18,11 @@ public class Calculator {
         int firstNumber = scanner.nextInt();
         System.out.println("Podaj drugą liczbę");
         int secondNumber = scanner.nextInt();
-        int addition = firstNumber + secondNumber;
-        int subtraction = firstNumber - secondNumber;
-        int multiplication = firstNumber * secondNumber;
-        int division = firstNumber / secondNumber;
-        int mod = firstNumber % secondNumber;
+        int addition = calculatorTests.addition(firstNumber , secondNumber);
+        int subtraction = calculatorTests.subtraction(firstNumber, secondNumber);
+        int multiplication = calculatorTests.multiplication(firstNumber, secondNumber);
+        int division = calculatorTests.division(firstNumber, secondNumber);
+        int mod = calculatorTests.mod(firstNumber, secondNumber);
         System.out.println("Wynik dodawania to "+" "+ addition);
         System.out.println("Wynik odejmowania to"+" "+ subtraction);
         System.out.println("Wynik mnożenia to"+ " "+ multiplication);

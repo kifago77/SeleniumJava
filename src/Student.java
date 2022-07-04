@@ -4,8 +4,11 @@ public class Student {
     public String nick;
     public String email;
     public int noIndex;
+    public static String nazwaUczelni= "Szkoła Głowna Handlowa";
 
-
+public static void mojaUczelnia(){
+    System.out.println("Szkoła Wyższa Handlowa");
+}
 
     public void introduceYourself(){
         System.out.println("Name."+" " + name + " "+ "Last Name."+" " + lastName);

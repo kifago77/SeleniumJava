@@ -1,18 +1,20 @@
+import java.util.Scanner;
 public class StudentChecker {
     public static void main(String[] args) {
+        String uczelnia = Student.nazwaUczelni;
 
         Student maciej = new Student();
         maciej.name = "Maciej";
         maciej.lastName = "Kowalczyk";
         maciej.noIndex =  1234;
 
+
+        System.out.println();
         Student filip = new Student();
         filip.name = "Filip";
         filip.lastName = "Filipowicz";
         filip.noIndex = 32032;
-
         System.out.println();
-
         Student mikolaj = new Student();
         mikolaj.name= "Mikołaj";
         mikolaj.lastName= "Kwiatkowski";
@@ -28,6 +30,7 @@ public class StudentChecker {
             studentTab[i].introduceYourself();
             studentTab[i].noIndex();
             studentTab[i].accept();
+            studentTab[i].mojaUczelnia();
         }
 
 
