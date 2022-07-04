@@ -19,9 +19,7 @@ public class StudentChecker {
         mikolaj.name= "Mikołaj";
         mikolaj.lastName= "Kwiatkowski";
         mikolaj.noIndex= 3456;
-
-
-
+        //Wywołanie tablicy i przypisanie metod do i
         Student[]studentTab = new Student[3];
         studentTab[0] = maciej;
         studentTab[1] = filip;
