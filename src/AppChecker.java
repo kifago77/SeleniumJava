@@ -1,3 +1,5 @@
+
+
 public class AppChecker {
     public static void main(String[] args) {
         AndroidApp android = new AndroidApp("System Android", 2020);

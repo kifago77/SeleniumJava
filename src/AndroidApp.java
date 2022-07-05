@@ -1,4 +1,4 @@
-public class AndroidApp extends App{
+public class AndroidApp extends App {
 
 
     public AndroidApp(String name, int years) {
