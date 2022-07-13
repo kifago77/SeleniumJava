@@ -1,5 +1,8 @@
 package Animal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnimalChecker {
     public static void main(String[] args) {
         //Wykorzystuje Polimorfizm do klasy Animal przypisuje obiekt dog
